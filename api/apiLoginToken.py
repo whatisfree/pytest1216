@@ -4,7 +4,7 @@ logger = GetLogger().get_logger()
 class ApiLoginToken:
     def __init__(self):
         logger.info('开始获取pinter的login的url地址:')
-        self.url = 'http://localhost:8080/pinter/bank/api/login2'
+        self.url = 'http://192.168.1.106:8080/pinter/bank/api/login2'
         logger.info('pinter系统登陆url是:%s' % self.url)
 
     def login_token_success(self,session):
